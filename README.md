@@ -15,12 +15,6 @@ AES Cache Timing Attack
 
 使用指南
 編譯
-
-請確保您在 Linux 環境下使用 GCC/Clang 編譯器。
-Bash
-
-git clone https://github.com/chenbenlu/aes_cache_attack.git
-cd aes_cache_attack
 gcc -o aes_attack aes_attack.c -O3 -Wall -march=native -lrt
 
 執行
